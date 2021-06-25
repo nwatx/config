@@ -1,0 +1,68 @@
+{
+  "vim.enableNeovim": true,
+  // "vim.useCtrlKeys": false,
+  "vim.handleKeys": {
+	"<C-d>": true,
+	"<C-k>": false,
+	"<C-0>": false,
+	"<C-c>": false,
+	"<C-v>": false,
+	"<C-a>": false,
+	"<C-z>": false,
+	"<C-r>": false
+  },
+  "editor.lineNumbers": "relative",
+  "editor.wordWrap": "off",
+  "code-runner.runInTerminal": true,
+  "cph.general.defaultLanguageTemplateFileLocation": "/home/neo/Documents/GitHub/CP/templates/LONG.cpp",
+  "cph.general.menuChoices": "cpp java",
+  "cph.general.defaultLanguage": "cpp",
+  "cph.general.autoShowJudge": false,
+  "cph.language.cpp.Args": "-std=c++17 -O2 -w -DLOCAL",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "United Ubuntu",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+	"**/.classpath": true,
+	"**/.project": true,
+	"**/.settings": true,
+	"**/.factorypath": true
+  },
+  "files.autoSave": "afterDelay",
+  "git.enableSmartCommit": true,
+  "editor.semanticHighlighting.enabled": true,
+  "workbench.colorCustomizations": {
+	"editorWarning.foreground": "#caa838",
+	"editorError.foreground": "#ff0000"
+  },
+  "editor.tokenColorCustomizations": {
+	"[United Ubuntu]": {
+	  "keywords": "#FF73FD",
+	  // "functions": "#ffe4fd",
+	  "textMateRules": [
+		{
+		  "name": "JSX Tags",
+		  "scope": ["support.class.component"],
+		  "settings": {
+			"foreground": "#FFFFFF",
+			"fontStyle": "bold"
+		  }
+		}
+	  ]
+	}
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "cph.general.firstTime": false,
+  "git.autofetch": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.autoReveal": "focusNoScroll",
+  "editor.cursorStyle": "line",
+  "editor.insertSpaces": false,
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "vim.vimrc.enable": true,
+  "vim.vimrc.path": "$HOME/vsc.vim",
+  "terminal.integrated.tabs.location": "left",
+  "terminal.integrated.tabs.enabled": false
+}
